@@ -1,0 +1,40 @@
+.area-all {
+  margin: 0 auto;
+  min-width: 980px;
+  background-image:  url("img/area-all/bg.png");
+  background-position: center top;
+  background-repeat: repeat-y;
+  background-color: #efefef;
+}
+
+.area-header {
+  background-color: #efefef;
+}
+
+.area-container {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  *zoom: 1;
+}
+.area-container:before, .area-container:after {
+  content: "";
+  display: table;
+}
+.area-container:after {
+  clear: both;
+}
+
+.area-main {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 980px;
+  padding: 0 0 100px;
+}
+
+.area-footer {
+  border-top: 1px solid #dedad1;
+  background-color: #efefef;
+}
