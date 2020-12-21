@@ -1,6 +1,28 @@
 {% extends 'base.html' %}
 
 {% load static %}
+{% block nav %}
+<nav data-parts-name="part-header-005 v7" class="mod-gnav2 ex-style_01B2">
+	<div  class="mod-gnav-inner">
+		<div  class="mod-gnav-inner2">
+			<ul>
+				<li  class=""><span class="mod-gnav-item"><a href="/">私たちのやりたい事</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/office">事務所概要</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/member" style="color: white;">弁理士紹介</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/access">アクセス</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/contact">お問合せ</a></span></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+{% block header-image %}
+	<img style="width:100%;height:auto;max-height:600px;filter: brightness(50%);" id="image" src="{% static 'img/member.jpg' %}">
+		<div style="position: absolute;left: 0; right: 0; margin-top: -300px;display: flex;flex-direction: column;align-items: center;">
+    	<h1 style="color:white;">弁理士紹介</h1>
+	</div>
+{% endblock %}
+
 {% block content %}
 
 <div   data-parts-name="part-main-004 v7" class="ex-style_01A1 mod-box3 ex-first-part">

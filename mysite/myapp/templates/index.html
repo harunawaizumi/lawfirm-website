@@ -1,78 +1,93 @@
 {% extends 'base.html' %}
 
 {% load static %}
+{% block nav %}
+<nav data-parts-name="part-header-005 v7" class="mod-gnav2 ex-style_01B2">
+	<div  class="mod-gnav-inner">
+		<div  class="mod-gnav-inner2">
+			<ul>
+				<li  class=""><span class="mod-gnav-item"><a href="/" style="color: white;">私たちのやりたい事</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/office">事務所概要</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/member">弁理士紹介</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/access">アクセス</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/contact">お問合せ</a></span></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+{% block header-image %}
+	<img style="width:100%;height:auto;max-height:550px;filter: brightness(70%);" id="image" src="{% static 'img/index.jpg' %}">
+		<div style="position: absolute;left: 0; right: 0; margin-top: -300px;display: flex;flex-direction: column;align-items: center;">
+    	<h1 style="color:white;">高い専門性と豊富な経験によりお客様をサポート</h1>
+	</div>
+{% endblock %}
+
 {% block content %}
 	
 		<div class="area-main-inner2">
-					<div data-parts-name="part-main-246 v9" class="ex-style_01A1 mod-part-pic ex-imgSize_S ex-first-part">
-						
-						<div class="mod-3col-in2 ex-first-child">
-							<div class="mod-3col-inner">
-									<p  class="mod-img ex-first-child"   data-height-group="246-1-8"><a data-linkconfig-role="external" href="http://www.izawapat.jp/category/1218891.html" target="_blank">
-									<img src="{% static 'img/patent.jpg' %}">
-								</a></p>
-							</div>
-							<div  class="mod-3col-inner2">
-									<p  class="mod-img ex-first-child"   data-height-group="246-1-8"><a data-linkconfig-role="external" href="http://www.izawapat.jp/category/1218893.html" target="_blank">
-									<img src="{% static 'img/tm.jpg' %}">
-								</a></p>
-							</div>
-							<div  class="mod-3col-inner3">
-									<p  class="mod-img ex-first-child"   data-height-group="246-1-8"><a data-linkconfig-role="external" href="http://www.izawapat.jp/category/1216435.html" target="_blank">
-									<img src="{% static 'img/world.jpg' %}">
-								</a></p>
-							</div>
-						</div>
-
-					</div>
 					<div data-parts-name="part-main-040 v7" class="mod-part-pic ex-imgSize_2SS ex-style_01C2">
 						<div  class="mod-set-h2 ex-first-child">
 							<div  class="mod-h_2_ver2 ex-first-child">
-								<h2  class="mod-h"><span style="font-size:16px"><strong>WELCOME&nbsp;to IZAWA &amp; IZAWA INTERNATIONAL PATENT OFFICE</strong></span></h2>
+								<h2  class="mod-h"><span style="font-size:16px"><strong>特許出願</strong></span></h2>
 							</div>
 							<div  class="mod-rte_ver2">
-								<p><span lang="EN-US">Izawa &amp; Izawa International Patent Office was <strong>established in&nbsp;1930.</strong><br>Our services have always been guided by the principle of fairness.Our mission is to respond quickly and accurately to all client needs. The environment surrounding intellectual property has experienced some tremendous changes over the last few years.&nbsp;We keep&nbsp;up with complex scientific and technological advances, and even anticipates them.</span></p>
+								<p><span lang="EN-US">発明者が発明を生み、提案書として提出するのをただ黙って待っていても、高い価値の発明が生み出される可能性は限られています。これでは、良く完成された実施間近な発明しか出願をすることができません。より未来の基本的な発明を権利化に導くには、ただ待っているのではなく、積極的に働きかける必要があります。眠っている発明を特許性のある方向へ導き、発明者の発明能力を向上させると共に、新規事業の創出につながる、価値の高い権利を取得します。</span></p>
+							</div>
+							<div  class="mod-h_2_ver2 ex-first-child">
+								<h2  class="mod-h"><span style="font-size:16px"><strong>商標出願</strong></span></h2>
+							</div>
+							<div  class="mod-rte_ver2">
+								<p><span lang="EN-US">商標登録後に、商標の形態が変化し、取得した商標権では変化後の商標を有効に保護できなくなっている場合があります。また、形態が変化した商標を使用し続けると他の商標権者から商標権侵害で訴えられる危険もあります。登録・権利化に必要となる適正な商標登録出願をていねいにアドバイスし、適宜お客様とご相談しながらより慎重に進めていきます。</span></p>
+							</div>
+							<div  class="mod-h_2_ver2 ex-first-child">
+								<h2  class="mod-h"><span style="font-size:16px"><strong>外国出願</strong></span></h2>
+							</div>
+							<div  class="mod-rte_ver2">
+								<p><span lang="EN-US">外国への商標登録出願は日本と同じようには考えられませんので、外国へ出願するには、各国の文化や言語、商標制度を理解している必要があります。弊社では長年の経験と情報の強みを活かして、ビジネスに役立つ商標権を取得するための外国出願を行っています。</span></p>
+							</div>
+						</div>
+
+						<div data-parts-name="part-main-066_004 v10" class="mod-box3 ex-style_01B1 ex-imgSize_S">
+							<div  class="mod-h_2 ex-first-child">
+								<i  class="mod-icon_1"></i><h2  class="mod-h">和泉特許事務所の経営理念</h2>
 							</div>
 						</div>
 						<div class="mod-set-step">
 							<div class="step1 ex-first-child">
-								<div class="mod-set-design4 ex-first-child">
-									<div  class="mod-h_4_ver2 ex-first-child">
-										<div  class="mod-h_4-inner">
-											<div  class="mod-h_4-inner3 ex-first-child">
-												<h4  class="mod-h"><strong><span style="font-size:18px">特許業務法人</span> 井澤国際特許事務所の経営理念</strong></h4>
-											</div>
-										</div>
-									</div>
 									<div class="mod-box_ver2">
 										<div class="mod-2col-in1 ex-first-child">
 											<div class="mod-2col-wrap">
 												<div class="mod-2col-inner">
 													<div class="mod-2col-inner-2">
 														<p class="mod-img ex-first-child"><img src="{% static 'img/profile.jpg' %}"></a></p>
-														<p class="mod-text-pic"><span style="font-size:12px">代表弁理士井澤幹です。</span></p>
 													</div>
 												</div>
-												<div class="mod-2col-inner2">
+												<div class="mod-2col-inner2" style="margin-top:50px">
 													<p><span style="font-size:26px"><strong>私達のやりたい事は、</strong><br><strong>特許や商標の力で、企業を防衛し、</strong><br><strong>さまざまな会社を</strong><strong><span style="color:red">成功</span>させることです。</strong></span></p>
-													<ul>
-														<li><u>中小企業の開発力を無駄にはさせません。</u></li>
-														<li><u>御社に眠っている知財を掘り起こします。</u></li>
-														<li><u>なにより親身になってお客様に向き合います。</u></li>
-													</ul>
-													<p>１９３０年（昭和５年）創立と、老舗といえる特許事務所ではありますが、古ければ良いということだけにあぐらをかかず、蓄積された豊富な経験を基に、研鑚を重ね、日々、<strong>成長・変化・革新</strong>していく事を肝に銘じております。</p>
+													<p class="mod-text-pic"><span style="font-size:12px">代表弁理士　和泉久志</span></p>
 												</div>
 											</div>
+
+										</div class="mod-2col-in1 ex-first-child">
+										<div>
+											<ul>
+												<li><u>中小企業の開発力を無駄にはさせません。</u></li>
+												<li><u>御社に眠っている知財を掘り起こします。</u></li>
+												<li><u>なにより親身になってお客様に向き合います。</u></li>
+											</ul>
+											<p>知的財産はとても大きな力を持っています。価値の高い知的財産を生み出すことは事業の開拓につながり、
+その事業を一定の期間守ることができます。弊社はその大きな力を、「社会に大きく貢献する」という大きな目的のため、生かしたいと考えます。</p>
 										</div>
+										
 									</div>
-								</div>
 							</div>
 						</div>
 					</div>
 				
 					<div data-parts-name="part-main-066_004 v10" class="mod-box3 ex-style_01B1 ex-imgSize_S">
 						<div  class="mod-h_2 ex-first-child">
-							<i  class="mod-icon_1"></i><h2  class="mod-h">井澤国際特許事務所がお客様に選ばれる理由</h2>
+							<i  class="mod-icon_1"></i><h2  class="mod-h">和泉特許事務所がお客様に選ばれる理由</h2>
 						</div>
 
 						<div class="step1 ex-first-child">
@@ -80,27 +95,27 @@
 
 								<div  class="mod-3col-inner2">
 									<div  class="mod-box40 ex-first-child"   data-height-group="066_004-1-1">
-										<h4  class="mod-h"   data-height-group="066_004-1-8"><span style="font-size:26px; line-height:41.5999984741211px">1. 信頼</span></h4>
+										<h4  class="mod-h"   data-height-group="066_004-1-8"><span style="font-size:26px; line-height:41.5999984741211px">信頼</span></h4>
 									</div>
 									<p  class="mod-image"   data-height-group="066_004-1-18">
-										<img src="{% static 'img/trust.jpg' %}">
+										<img src="{% static 'img/trust.jpg' %}" style="border-radius: 50%;">
 									</p>
 									<div  class="mod-box41"   data-height-group="066_004-1-28">
-										<div  class="mod-rte22 ex-first-child"     data-height-group="066_004-1-38">
-											<p>「お客様からの信頼」獲得を８０年以上継続できている事が誇りです。お客様との信頼の構築が、良い仕事のご提供・お客様の良き成功（ＷＩＮ・ＷＩＮ）を生みます。</p>
+										<div  class="mod-rte22 ex-first-child"     data-height-group="066_004-1-38" style="padding: 6px;">
+											<p>「お客様からの信頼」獲得を長年継続できている事が誇りです。お客様との信頼の構築が、良い仕事のご提供・お客様の良き成功を生みます。</p>
 										</div>
 									</div>
 								</div>
 
 								<div  class="mod-3col-inner2">
 									<div  class="mod-box40 ex-first-child"   data-height-group="066_004-1-1">
-										<h4  class="mod-h"   data-height-group="066_004-1-8"><span style="font-size:26px; line-height:41.5999984741211px">2. 迅速丁寧</span></h4>
+										<h4  class="mod-h"   data-height-group="066_004-1-8"><span style="font-size:26px; line-height:41.5999984741211px">迅速丁寧</span></h4>
 									</div>
 									<p  class="mod-image"   data-height-group="066_004-1-18">
-										<img src="{% static 'img/polite.jpg' %}">
+										<img src="{% static 'img/polite.jpg' %}" style="border-radius: 50%;">
 									</p>
 									<div  class="mod-box41"   data-height-group="066_004-1-28">
-										<div  class="mod-rte22 ex-first-child"     data-height-group="066_004-1-38">
+										<div  class="mod-rte22 ex-first-child"     data-height-group="066_004-1-38"  style="padding: 6px;">
 											<p>お客様にとって新規事業はスピードが命です。新規事業に係る開発品・商標の保護、侵害調査等、迅速かつ丁寧な対応を徹底しております。</p>
 										</div>
 									</div>
@@ -109,15 +124,15 @@
 								<div  class="mod-3col-inner3">
 									<div  class="mod-box40 ex-first-child"   data-height-group="066_004-1-1">
 										<h4  class="mod-h"   data-height-group="066_004-1-8">
-											<span style="font-size:26px">3. 親身</span>
+											<span style="font-size:26px">親身</span>
 										</h4>
 									</div>
 									<p  class="mod-image"   data-height-group="066_004-1-18">
-										<img src="{% static 'img/cordinal.jpg' %}">
+										<img src="{% static 'img/cordinal.jpg' %}" style="border-radius: 50%;">
 									</p>
-									<div  class="mod-box41"   data-height-group="066_004-1-28">
+									<div  class="mod-box41"   data-height-group="066_004-1-28" style="padding: 6px;">
 										<div  class="mod-rte22 ex-first-child"     data-height-group="066_004-1-38">
-											<p>お客様の立場になって、お客様の成功のための有効策を「予算」と相談しながらご提案いたします。そして、必ず「弁理士」が対応いたします。<span style="background-color:transparent">親身（懇切丁寧・親しみ易い）がモットーです。</span></p>
+											<p>お客様の立場になって、お客様の成功のための有効策を「予算」と相談しながらご提案いたします。そして、必ず「弁理士」が親身になって対応いたします。</span></p>
 										</div>
 									</div>
 								</div>
@@ -217,49 +232,6 @@
 						<p style="text-align:center"><strong>ご依頼は日本全国からだけでなく、海外からも直接頂いております。</strong></p>
 					</div>
 				</div>
-
-					<div   data-parts-name="part-main-271_002 v10" class="ex-style_t5A1 ex-imgSize_2S mod-box3">
-						<div  class="mod-box-inner">
-							<div  class="mod-box52 ex-first-child">
-								<div  class="mod-box-inner">
-									<div  class="mod-h_4-inner" style="text-align:center;font-size:26px;">
-										<i  class="mod-icon_1"></i>
-										<h4  class="mod-h">まずは、お気軽にご相談ください（無料）。</h4>
-									</div>
-									<div  class="mod-box53">
-										<div  class="mod-box-inner mod-2col42 ex-first-child">
-											<div  class="mod-2col-wrap">
-												<div  class="mod-2col-inner">
-													<p  class="mod-image ex-first-child"><img src="{% static 'img/contact.jpg' %}"></p>
-													<p  class="mod-text4">お気軽にお問合せください。</p>
-												</div>
-												<div  class="mod-2col-inner2">
-													<div   class="mod-rte28 ex-first-child"><p>お電話でのお問合せはこちら</p></div>
-													<div  class="mod-tel29">
-														<i  class="mod-icon_tel"></i>
-														<div  class="mod-tel-inner">
-															<p  class="mod-tel-inner-2 ex-first-child">イ　　ザ　　ワ　１番</p>
-															<p  class="mod-tel-inner-3"><span>03-6402-1381</span></p>
-														</div>
-													</div>
-													<div  class="mod-rte35">
-														<p>受付時間：9:00～17:00（土日祝を除く）</p>
-														<p><span style="font-size:20px">ＦＡＸ：<span style="color:#B22222">03-6402-1382</span></span><span style="font-size:8px">（イザワ２番）</span></p>
-													</div>
-													<div    class="mod-bnr33">
-														<a href="/contact">
-															<div  class="mod-bnr-inner"><p>お問合せフォームはこちらへ</p></div>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			</div>
 
 {% endblock %}

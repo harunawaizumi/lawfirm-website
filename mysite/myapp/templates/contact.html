@@ -1,6 +1,28 @@
 {% extends 'base.html' %}
 
 {% load static %}
+{% block nav %}
+<nav data-parts-name="part-header-005 v7" class="mod-gnav2 ex-style_01B2">
+	<div  class="mod-gnav-inner">
+		<div  class="mod-gnav-inner2">
+			<ul>
+				<li  class=""><span class="mod-gnav-item"><a href="/">私たちのやりたい事</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/office">事務所概要</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/member">弁理士紹介</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/access">アクセス</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/contact"   style="color: white;">お問合せ</a></span></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+{% block header-image %}
+	<img style="width:100%;height:auto;max-height:600px;filter: brightness(50%);" id="image" src="{% static 'img/contact.jpg' %}">
+		<div style="position: absolute;left: 0; right: 0; margin-top: -300px;display: flex;flex-direction: column;align-items: center;">
+    	<h1 style="color:white;">コンタクト</h1>
+	</div>
+{% endblock %}
+
 {% block content %}
 <div class="area-main-inner2">
 	<div   data-parts-name="part-main-004 v7" class="ex-style_01A1 mod-box3 ex-first-part">
@@ -61,94 +83,20 @@
 						</div>
 					</div>
 				</div>
+				<div>
+					<script type="text/javascript" src="https://form.jotform.com/jsform/203546842462457"></script>s
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-</div>
-<div   data-parts-name="part-main-183_001 v10" class="ex-style_f1A1 mod-box3">
-	<div  class="mod-box-inner">
-		<div  class="mod-h_3 ex-first-child">
-			<i  class="mod-icon_1"></i>
-			<h3  class="mod-h">お問合せフォーム</h3>
-		</div>
-		<div  class="mod-box20">
-			<div  class="mod-box40 ex-first-child">
-				<p>以下のフォームに必要事項をご記入の上、「送信する」ボタンをクリックしてください。</p>
-			</div>
-		</div>
-		<div  class="mod-form" style="padding-bottom: 40px">
-			<form action="/_form/forms/6919/form_records" method="POST">
-				<input type="hidden" name="form_record[order]" value="1,5,4,2,3">
-				<div  class="mod-form-items">
-					<div class="mod-form-item">
-						<input type="hidden" name="form_record[6919_1_label]" value="会社名またはお名前">
-						<label for="form_record[6919_1]" class="mod-form-label">
-							<span class="mod-form-name">会社名またはお名前</span>
-							<span class="mod-form-required">必須</span>
-						</label>
-						<span class="mod-form-part mod-form-part-text">
-							<input type="text" name="form_record[6919_1]" id="form_record[6919_1]" value="">
-							<p class="mod-form-description">（例：株式会社〇〇）</p>
-						</span>
-					</div>
-					<div class="mod-form-item">
-						<input type="hidden" name="form_record[6919_5_label]" value="ご担当者名">
-						<label for="form_record[6919_1]" class="mod-form-label">
-							<span class="mod-form-name">ご担当者名</span>
-						</label>
-						<span class="mod-form-part mod-form-part-text">
-							<input type="text" name="form_record[6919_5]" id="form_record[6919_1]" value="">
-							<p class="mod-form-description">（例：特許太郎）</p>
-						</span>
-					</div>
-					<div class="mod-form-item">
-						<input type="hidden" name="form_record[6919_4_label]" value="お電話番号">
-						<label for="form_record[6919_1]" class="mod-form-label">
-							<span class="mod-form-name">お電話番号</span>
-							<span class="mod-form-required">必須</span>
-						</label>
-						<span class="mod-form-part mod-form-part-text">
-							<input type="text" name="form_record[6919_4]" id="form_record[6919_1]" value="">
-							<p class="mod-form-description">（例：03-6402-1381,090-〇〇〇〇-〇○○〇）</p>
-						</span>
-					</div>
-					<div class="mod-form-item">
-						<input type="hidden" name="form_record[6919_2_label]" value="メールアドレス">
-						<label for="form_record[6919_2]" class="mod-form-label">
-							<span class="mod-form-name">メールアドレス</span>
-							<span class="mod-form-required">必須</span>
-						</label>
-						<span class="mod-form-part mod-form-part-text">
-							<input type="text" name="form_record[6919_2]" id="form_record[6919_2]" value="">
-							<p class="mod-form-description">（例：sample@izawahp.jp）</p>
-						</span>
-					</div>
-					<div class="mod-form-item">
-						<input type="hidden" name="form_record[6919_3_label]" value="ご質問はこちらへどうぞ">
-						<label for="form_record[6919_3]" class="mod-form-label">
-							<span class="mod-form-name">ご質問はこちらへどうぞ</span>
-							<span class="mod-form-required">必須</span>
-						</label>
-						<span class="mod-form-part mod-form-part-textarea">
-							<textarea name="form_record[6919_3]" id="form_record[6919_3]"></textarea>
-						</span>
-					</div>
-				</div>
-				<div class="mod-form-submit">
-					<div class="mod-form-submit-button" style="display: none;">
-						<input type="submit" value="送信内容を確認する">
-						<div class="mod-form-submit-footer">テキストを入力してください</div>
-					</div>
-					<div class="mod-form-confirm-button" style="display: block;">
-						<input type="button" value="修正する" class="mod-form-edit" style="display: none;">
-						<input type="submit" value="送信する" class="mod-form-send">
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-</div>
 </div>
 {% endblock %}
+<script>
+		(function() {
+			var protocol = location.protocol;
+			document.write('<script src="' + protocol + '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">\x3C/script>');
+		}());
+	</script>
+	<script src="{% static 'js/form.js' %}"></script>
+	<script src="{% static 'js/pc.js' %}"></script>
+	<script src="{% static 'js/pc2.js' %}"></script>

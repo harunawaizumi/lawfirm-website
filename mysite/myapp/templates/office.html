@@ -1,26 +1,40 @@
 {% extends 'base.html' %}
 
 {% load static %}
+{% block nav %}
+<nav data-parts-name="part-header-005 v7" class="mod-gnav2 ex-style_01B2">
+	<div  class="mod-gnav-inner">
+		<div  class="mod-gnav-inner2">
+			<ul>
+				<li  class=""><span class="mod-gnav-item"><a href="/">私たちのやりたい事</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/office" style="color: white;">事務所概要</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/member">弁理士紹介</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/access">アクセス</a></span></li>
+				<li class=""><span class="mod-gnav-item"><a href="/contact">お問合せ</a></span></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+{% block header-image %}
+	<img style="width:100%;height:auto;max-height:550px;filter: brightness(50%);" id="image" src="{% static 'img/office.jpg' %}">
+		<div style="position: absolute;left: 0; right: 0; margin-top: -300px;display: flex;flex-direction: column;align-items: center;">
+    	<h1 style="color:white;">事務所概要</h1>
+	</div>
+{% endblock %}
 {% block content %}
 	
 <div class="area-main-inner2">
 	<div    data-parts-name="part-main-171_002 v8" class="ex-style_a1A1 mod-box3 ex-first-part">
-		<div  class="mod-box-inner">
-			<div  class="mod-h_3C1 ex-first-child">
-				<i  class="mod-icon_1"></i>
-				<h3  class="mod-h">当法人の概要</h3>
+		<div data-parts-name="part-main-066_004 v10" class="mod-box3 ex-style_01B1 ex-imgSize_S">
+			<div  class="mod-h_2 ex-first-child">
+				<i  class="mod-icon_1"></i><h2  class="mod-h">当法人の概要</h2>
 			</div>
+		</div>
+		<div  class="mod-box-inner">
 			<div  class="mod-box-inner">
 				<div  class="mod-2col4 ex-first-child">
 					<div  class="mod-2col-wrap">
-						<div  class="mod-2col-inner">
-							<p  class="mod-image ex-first-child"><img src="{% static 'img/office.jpg' %}">
-							</p>
-							<div  class="mod-h_5_22 ex-align-center">
-								<i  class="mod-icon_1"></i>
-								<h5  class="mod-h">事務所外観</h5>
-							</div>
-						</div>
 						<div  class="mod-2col-inner2">
 							<div       class="ex-first-child">
 								<div  class="mod-box41 ex-first-child">
@@ -33,7 +47,7 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>特許業務法人　井澤国際特許事務所<br>IZAWA &amp; IZAWA International Patent Office&nbsp;</p>
+										<p>特許業務法人　和泉特許事務所<br>Waizumi &amp;Patent &amp;Office &nbsp;</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -46,7 +60,7 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>１９３０年（昭和５年）</p>
+										<p>２０００年（平成１２年）</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -59,7 +73,7 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p><span style="font-size:11px">代表弁理士</span> 井澤 幹（KAN IZAWA）</p>
+										<p><span style="font-size:11px">代表弁理士</span> 和泉　久志（Hisashi Waizumi）</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -72,11 +86,7 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>東京都港区西新橋3-7-1ランディック第2新橋ビル1Ｆ</p>
-										<p><span style="font-size:8pt">LANDIC SHIMBASHI BLDG&nbsp;</span>
-											<span style="font-size:8pt">Ⅱ</span>
-											<span style="font-size:8pt">&nbsp;7-1,Nishi-Shimbashi&nbsp;3-Chome Minato-ku,Tokyo 105-0003,Japan</span>
-										</p>
+										<p>東京都千代田区内神田1-6-7 大洋ビル５F</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -84,12 +94,25 @@
 										<i  class="mod-icon_1"></i>
 										<div  class="mod-h_5-inner">
 											<div  class="mod-h_5-inner3 ex-first-child">
-												<h5  class="mod-h">電話番号　　 &nbsp; &nbsp;ＦＡＸ</h5>
+												<h5  class="mod-h">電話番号</h5>
 											</div>
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>TEL03-6402-1381　FAX03-6402-1382</p>
+										<p>03-5281-3700</p>
+									</div>
+								</div>
+								<div  class="mod-box41 ex-first-child">
+									<div  class="mod-h_5 ex-first-child">
+										<i  class="mod-icon_1"></i>
+										<div  class="mod-h_5-inner">
+											<div  class="mod-h_5-inner3 ex-first-child">
+												<h5  class="mod-h">ＦＡＸ</h5>
+											</div>
+										</div>
+									</div>
+									<div  class="mod-rte17">
+										<p>03-5281-8008</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -102,7 +125,7 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>info@izawapat.com</p>
+										<p>waizumi@waizumi-pat.jp</p>
 									</div>
 								</div>
 								<div  class="mod-box41 ex-first-child">
@@ -115,7 +138,15 @@
 										</div>
 									</div>
 									<div  class="mod-rte17">
-										<p>知財全般・明細書翻訳</p>
+										<dd class="col-12 col-md-10">
+										<h3 style="font-size:100%;margin-bottom:0;">■ 出願業務</h3>
+										<p>特許出願、商標出願、意匠出願</p><br>
+										<h3 style="font-size:100%;margin-bottom:0;">■ 技術分野</h3>
+										<p>情報処理全般、ソフトウェア、電気、電子、通信、機械、光学、半導体、化学、バイオ</p><br>
+										<h3 style="font-size:100%;margin-bottom:0;">■ 法律業務</h3>
+										<p>特許調査、米国鑑定、国内鑑定、契約書サポート</p><br>
+										<h3 style="font-size:100%;margin-bottom:0;">■ コンサルティング業務</h3><p>ブレインストーミングによる発明の創出と展開、知的所有権コンサルティング</p><br>
+										</dd>
 									</div>
 								</div>
 							</div>
@@ -125,81 +156,56 @@
 			</div>
 		</div>
 	</div>
-	
 	<div   data-parts-name="part-main-169_004 v10" class="ex-style_a1A1 mod-box3">
-		<div  class="mod-h_3C1 ex-first-child">
-			<i  class="mod-icon_1"></i>
-			<h3  class="mod-h">沿革</h3>
+		<div data-parts-name="part-main-066_004 v10" class="mod-box3 ex-style_01B1 ex-imgSize_S">
+			<div  class="mod-h_2 ex-first-child">
+				<i  class="mod-icon_1"></i><h2  class="mod-h">当法人の概要</h2>
+			</div>
 		</div>
 		<div  class="mod-box37">
 			<div  class="mod-2col4 ex-first-child">
-				<div   class="mod-table13 ex-first-child">
-					<table>
+				<div   class="">
+					<table style="margin-bottom: 60px;">
 						<tbody>
 							<tr>
-								<th style="width: 25%;">１９３０年</th>
-								<td>初代井澤武が東十条に事務所設立</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th style="width: 25%;">１９６８年</th>
-								<td>２代目弁理士井澤洵が入所</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>１９７２年</th>
-								<td>井澤武　黄綬褒章</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>１９８０年</th>
-								<td>創立５０周年記念行事（司会：故 逸見政孝 様）</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th><p>２０００年</p></th>
-								<td><p>井澤洵　黄綬褒章</p></td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>２００２年</th>
-								<td>３代目弁理士井澤幹　入所</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>２００４年</th>
-								<td>新橋に本事務所を移転　※東十条井澤ビルは分室に</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>２００８年</th>
-								<td><p>弁理士茂木康彦　入所</p>
-								</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>２００８年</th>
-								<td>弁理士三谷祥子　入所</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 							<tr>
-								<th>２０１０年</th>
-								<td>創立８０周年</td>
-							</tr>
-							<tr>
-								<th>２０１１年</th>
-								<td>井澤幹　日本弁理士会副会長　就任</td>
-							</tr>
-							<tr>
-								<th>２０１３年</th>
-								<td><p>弁理士野村理恵　入所</p><p>弁理士福本麻子　入所</p></td>
-							</tr>
-							<tr>
-								<th>２０１４年</th>
-								<td>特許業務法人化</td>
-							</tr>
-							<tr>
-								<th>２０１５年</th>
-								<td>創立８５周年</td>
-							</tr>
-							<tr>
-								<th>２０１５年</th>
-								<td><p>横浜オフィス（三谷祥子弁理士事務所）創設</p></td>
-							</tr>
-							<tr>
-								<th>２０１７年</th>
-								<td>井澤　幹　日本弁理士会執行理事</td>
+								<th style="width: 25%;padding: 8px;">１９３０年</th>
+								<td style="padding: 8px;">初代井澤武が東十条に事務所設立</td>
 							</tr>
 						</tbody>
 					</table>
