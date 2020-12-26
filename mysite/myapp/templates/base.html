@@ -21,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'css/bhsystem.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/mod.css' %}" />
+	<link rel="shortcut icon" type="image/ico" href="{% static 'img/favicon.ico' %}"/>
 	<script>
 		(function() {
 			var protocol = location.protocol;
@@ -28,40 +29,31 @@
 		}());
 	</script>
 </head>
+<style>
+.contact-email {
+	display: block;
+    padding: 0.8rem;
+    border: solid 1px;
+    font-size: 0.9rem;
+    line-height: 100%;
+}
+</style>
 <body class="mod-body">
 	<div class="area-all">
 
-		<header class="area-header" data-cms-parts-group="">
-			<div class="area-header-inner">
-
-			</div>
-			<div class="area-header-inner2">
-				<div   data-parts-name="part-header-090_001 v7" class="mod-parts-sitename ex-first-part ex-style_01A2"><div  class="mod-top-sitename">
-					<p  class="mod-top-text-sitename"><span style="background-color:rgb(60, 60, 60)">特許に関する相談は東京都千代田区内神田の【和泉特許事務所】にお任せください。</span></p>
+		<header class="" data-cms-parts-group="" style="">
+			<div style="width:100%;height:180px;background-color:white;">
+				<div style="float:left; width: 80%;margin:40px -200px auto 40px;">
+					<p  class=""><span style="font-size:14px">特許の高い専門性と経験によりお客様をサポート　特許業務法人&nbsp;</span></p>
+					<a href="/"><img  src="{% static 'img/logo.jpg' %}" style="width:250px"></a></p>
+					<p  class="">
+						<span style="font-size:16px;padding-left:6px;font-family: Georgia, serif;"><strong><span lang="EN-US">Waizumi Patent Office</span></strong></span>
+					</p>
 				</div>
-				<div  class="mod-3col-sitename">
-					<div  class="mod-3col-inner">
-						<div  class="mod-title-sitename">
-							<div  class="mod-title-inner2 ex-first-child">
-								<p  class="mod-title-text-sitename ex-first-child"><span style="font-size:14px">高い専門性と経験によりお客様をサポート　特許業務法人&nbsp;</span></p>
-							</div>
-						</div>
-						<p  class="mod-image-sitename">
-							<a href="/"><img  src="{% static 'img/logo.jpg' %}"></a>
-						</p>
-						<p  class="mod-address-sitename">
-							<span style="font-size:16px"><strong><span lang="EN-US">Waizumi Patent Office</span></strong></span>
-						</p>
-					</div>
-					<div  class="mod-3col-inner2">
-					</div>
-					<div  class="mod-3col-inner3">
-						<div class="mod-bnr3-sitename">
-							<a href="mailto:waizumi@waizumi-pat.jp" target="_blank">
-								<div class="mod-bnr-inner" align="center">メールでのお問合せはこちら</div>
-							</a>
-						</div>
-					</div>
+				<div class="mod-bnr3-sitename" style="float:right;width:300px;padding-top:105px;padding-right:40px;">
+					<a href="mailto:waizumi@waizumi-pat.jp" target="_blank" class="contact-email">
+						<div align="center">メールでのお問合せはこちら</div>
+					</a>
 				</div>
 			</div>
 			{% block nav %}
