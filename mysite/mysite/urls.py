@@ -19,6 +19,7 @@ from myapp.views import index, office, member, access, contact
 
 urlpatterns = [
     path('', index),
+    path('patent', index),
     path('office', office),
     path('member', member),
     path('access', access),
